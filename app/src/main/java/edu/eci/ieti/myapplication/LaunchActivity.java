@@ -1,11 +1,15 @@
 package edu.eci.ieti.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import com.ieti.myapplication.R;
+
+import edu.eci.ieti.myapplication.models.Token;
 
 public class LaunchActivity
         extends AppCompatActivity
@@ -19,11 +23,13 @@ public class LaunchActivity
         super.onCreate( savedInstanceState );
         SharedPreferences sharedPref =
                 getSharedPreferences( getString( R.string.preference_file_key ), Context.MODE_PRIVATE );
-
+        Intent intent;
         if(sharedPref.contains(TOKEN_KEY)){
-            //TODO go to MainActivity
+            intent = new Intent(this,null);
         }else{
-            //TODO go to LoginActivity
+            intent = new Intent(this,LoginActivity.class);
         }
+        startActivity(intent);
+        finish();
     }
 }
