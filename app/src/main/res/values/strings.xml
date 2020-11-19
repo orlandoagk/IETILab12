@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="preference_file_key">749823894234asdasd47hf87d8asd647q39j4f8cbe73b48j5jtit8vjcndud7r7e3u3j3n3n3udj3n3j8cjzxkcxksedioewj34n44b5b65j6j6n67b7b7j6j5</string>
+</resources>
